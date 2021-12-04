@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* renk paleti https://colorhunt.co/palette/97bfb4f5eedcdd4a484f091d 
+renk zemin #F5EEDC
+renk başlık DD4A48
+renk koyu 4F091D
+renk diğer 97BFB4
+*/
+
+body {
+    background-color: #F5EEDC;
+}
+
+header, footer, section {
+    background-color: #DD4A48;
+    text-align: center;
+}
+footer {
+    margin-top: 50px;
+}
+section {
+    background-color: #F5EEDC;
+}
+
+article:not(#ana-sayfa){
+    margin:0 auto 40px;
+    background-color: white;
+    width: 600px;
+}
+nav ,h1 {
+    color: #F5EEDC;
+    font-weight: 500;
+}
+
+h2,h3 {
+    color: #4F091D;
+    margin: 10px 0px;
+    font-weight: 300;
+}
+
+p {
+    color: #DD4A48;
+    width: 80%;
+    margin: 0 auto;
+}
+
+p.uyari-metni{
+    color:#4F091D;
+}
+a{
+    text-decoration: none;
+    color: #F5EEDC;
+}
+
+a.ic-sayfa{
+    color: #4F091D;
+}
+
+a:hover {
+    color: #4F091D;
+}
+ul {
+    list-style-position: inside;
+}
+li:not(article>ul>li) {
+    display: inline-block;
+    padding: 10px 20px;
+}
+article>ul {
+    color: #4F091D;
+}
+
+figcaption {
+    font-weight: 400;
+    font-style: italic;
+    padding: 20px 0;
+    background-color: #97BFB4;
+}
+
+figcaption>strong{
+    font-weight: 500;
+}
+
